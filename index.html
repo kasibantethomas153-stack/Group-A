@@ -1,0 +1,52 @@
+<div class="page" id="page-home">
+  <div class="hero" style="background-image:linear-gradient(135deg,rgba(23,94,66,.48),rgba(44,122,88,.52)),url('hero1.jpg')">
+    <span class="float" style="top:14%;left:8%"></span><span class="float" style="top:55%;right:9%"></span><span class="float" style="top:20%;right:22%"></span>
+    <div class="wrap">
+      <h1>Let’s travel and explore</h1>
+      <p>Wildlife safaris, vibrant city tours and sun-soaked beaches — handcrafted day trips and packages across the Pearl of Africa.</p>
+    </div>
+    <svg class="hills" viewBox="0 0 1440 150" preserveAspectRatio="none"><path class="h1" fill="#ffffff" fill-opacity=".35" d="M-60 150V70L180 20l180 60 200-50 220 70 200-60 260 50 160-40v100z"/><path fill="var(--bg)" d="M0 150V105C240 60 480 140 720 100s480-40 720 10v40z"/></svg>
+  </div>
+  <div class="wrap">
+    <form class="search" id="searchForm">
+      <div><label for="sDest">Destination</label><select id="sDest"><option value="all">Anywhere</option><option value="park">National Parks</option><option value="city">City Landmarks</option><option value="beach">Beaches</option></select></div>
+      <div><label for="sDate">Date</label><input type="date" id="sDate"></div>
+      <div><label for="sPeople">Travellers</label><select id="sPeople"><option>1 person</option><option>2 people</option><option>3–5 people</option><option>6+ people</option></select></div>
+      <button class="btn" type="submit">Search</button>
+    </form>
+
+    <section class="block">
+      <div class="split">
+        <div class="art reveal"></div>
+        <div class="reveal" style="--d:.15s">
+          <div class="title" style="text-align:left;margin-bottom:10px"><small>About us</small><h2>We are your travel pointer</h2></div>
+          <p style="color:var(--muted)">Safari &amp; City Tours is a local travel agency that turns trips into stories. Our friendly guides know every road, trail and hidden spot, so you can relax and enjoy.</p>
+          <ul class="checks"><li>Local, licensed and experienced guides</li><li>Transparent prices — no hidden fees</li><li>Day tours and multi-day packages</li></ul>
+          <a class="btn" href="#packages">See packages →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" style="padding-top:60px">
+      <div class="stats">
+        <div class="stat reveal"><b data-count="678">0</b><span>Happy travellers</span></div>
+        <div class="stat reveal" style="--d:.1s"><b data-count="2547">0</b><span>Tours completed</span></div>
+        <div class="stat reveal" style="--d:.2s"><b data-count="98" data-suffix="%">0</b><span>Satisfaction</span></div>
+        <div class="stat reveal" style="--d:.3s"><b data-count="12">0</b><span>Years of experience</span></div>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="title reveal"><small>Featured tours</small><h2>Most liked tours</h2><p>Our travellers’ all-time favourites.</p></div>
+      <div class="slider reveal" id="slider">
+        <div class="slide on" style="--g:linear-gradient(135deg,rgba(29,151,108,.72),rgba(58,123,213,.66)),url('murchison.jpg');background-size:cover;background-position:center;background-repeat:no-repeat"><div><h3>Murchison Falls Safari</h3><p>Cruise the Nile beneath thundering falls and spot elephants, giraffes and lions.</p><a class="btn light sm" href="#packages">View package</a></div><div class="big"></div></div>
+        <div class="slide" style="--g:linear-gradient(135deg,rgba(247,151,30,.72),rgba(229,72,77,.72)),url('kampalacity1.jpg');background-size:cover;background-position:center;background-repeat:no-repeat"><div><h3>Kampala City Day Tour</h3><p>Royal tombs, bustling markets, cathedrals and the best street food in town.</p><a class="btn light sm" href="#packages">View package</a></div><div class="big"></div></div>
+        <div class="slide" style="--g:linear-gradient(135deg,rgba(17,153,142,.72),rgba(76,200,114,.65)),url('ssesse2.jpg');background-size:cover;background-position:center;background-repeat:no-repeat"><div><h3>Ssese Islands Beach Escape</h3><p>Golden sand, calm Lake Victoria waters and unforgettable sunsets.</p><a class="btn light sm" href="#packages">View package</a></div><div class="big"></div></div>
+        <button class="arrow prev" id="prev" aria-label="Previous">‹</button><button class="arrow next" id="next" aria-label="Next">›</button>
+        <div class="dots" id="dots"></div>
+      </div>
+    </section>
+
+    <div class="cta reveal"><h2>Ready for your next adventure?</h2><p>Tell us where you want to go — we’ll plan the rest.</p><a class="btn light" href="#contact">Plan my trip</a></div>
+  </div>
+</div>
